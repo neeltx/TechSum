@@ -1,0 +1,4 @@
+techsum_ultimate_model/
+.venv/
+.vscode/
+__pycache__/

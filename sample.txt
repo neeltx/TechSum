@@ -1,0 +1,9 @@
+The Russia-linked threat actor known as APT28 (aka Forest Blizzard) has been linked to a new campaign that has compromised insecure MikroTik and TP-Link routers and modified their settings to turn them into malicious infrastructure under their control as part of a cyber espionage campaign since at least May 2025.
+
+The large-scale exploitation campaign has been codenamed FrostArmada by Lumen's Black Lotus Labs, with Microsoft describing it as an effort to exploit vulnerable home and small office (SOHO) internet devices to hijack DNS traffic and enable passive collection of network data.
+
+"Their technique modified DNS settings on compromised routers to hijack local network traffic to capture and exfiltrate authentication credentials," Black Lotus Labs said in a report shared with The Hacker News.
+
+"When targeted domains were requested by a user, the actor redirected traffic to an attacker-in-the-middle (AitM) node, where those credentials were harvested and exfiltrated. This approach enabled a nearly invisible attack that required no interaction from the end user."
+
+The infrastructure associated with the campaign has been disrupted and taken offline as part of a joint operation in collaboration with the U.S. Department of Justice, Federal Bureau of Investigation, and other international partners

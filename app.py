@@ -10,7 +10,7 @@ st.subheader("Abstractive Summarization for AI & Cybersecurity News")
 # 2. Load the Ultimate Model (Cached so it only loads once)
 @st.cache_resource
 def load_model():
-    model_path = "./techsum_ultimate_model"
+    model_path = "neeltx/TechSum-Ultimate"
     device = "cuda" if torch.cuda.is_available() else "cpu"
     
     # Load tokenizer and model
